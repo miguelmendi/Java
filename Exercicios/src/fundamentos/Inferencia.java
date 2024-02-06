@@ -8,9 +8,9 @@ public class Inferencia {
 		var b = 4.5;
 		System.out.println(b);
 		
-		var c = "Texto";
+		var c = "Outro Texto";
 		
-		c = "Outro texto";
+		
 		System.out.println(c);		
 	}
 }
