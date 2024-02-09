@@ -11,6 +11,6 @@ public class Inferencia {
 		
 		
 		
-		System.out.println();		
+				
 	}
 }
