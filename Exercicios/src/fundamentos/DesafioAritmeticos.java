@@ -26,5 +26,6 @@ public class DesafioAritmeticos {
 		
 		double result = fPotentiation / gPotentiation;
 		System.out.println(result);
+		
 	}
 }
