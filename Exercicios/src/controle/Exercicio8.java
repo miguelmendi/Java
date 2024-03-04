@@ -19,6 +19,7 @@ public class Exercicio8 {
 		for (int i = 0; i < letras.length; i++) {
 			System.out.println(letras[i]);
 		}
+		
 
 		scanner.close();
 	}
