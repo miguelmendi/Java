@@ -8,7 +8,7 @@ public class DataTeste {
 		data1.mes = 8;
 		data1.ano = 2015;
 		
-		System.out.println("Hoje é dia " + data1.dia + " Do mês " + data1.mes + " De " + data1.ano );
+		System.out.println(data1.obterDataFormatada());
 		
 		Data data2 = new Data();
 		
@@ -16,6 +16,6 @@ public class DataTeste {
 		data2.mes = 4;
 		data2.ano = 2016;
 		
-		System.out.println("Hoje é dia " + data2.dia + " Do mês " + data2.mes + " De " + data2.ano );
+		System.out.println(data2.obterDataFormatada() );
 	}
 }
