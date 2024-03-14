@@ -10,7 +10,7 @@ public class Atribuicao {
 		c -= a;//c = c - a
 		c *= b;//c = c * b
 		c /= a; // c = c / a
-		
+		System.out.println(c);
 		c %= 2; // c = c % 2; 0 ou 1
 	}
 }
