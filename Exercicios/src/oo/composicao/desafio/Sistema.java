@@ -18,6 +18,8 @@ public class Sistema {
 		System.out.println(compra1);
 		System.out.println(compra2);
 		
+		System.out.println(compra1 + " " + compra2);
+		
 		System.out.println(cliente.obterValorTotal());
 	}
 }
