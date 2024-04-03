@@ -2,6 +2,8 @@ package oo.composicao.desafio;
 
 public class Sistema {
 	public static void main(String[] args) {
+		
+		// Fazendo sistema de clientes
 		Cliente cliente = new Cliente("Maria Julia Moraes");
 		
 		Compra compra1 = new Compra();
