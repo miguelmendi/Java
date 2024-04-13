@@ -6,4 +6,5 @@ public interface Luxo {
 	default int velocidadeDoAr() {
 		return 1;
 	}
+
 }
