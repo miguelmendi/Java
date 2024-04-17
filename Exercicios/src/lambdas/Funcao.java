@@ -13,11 +13,19 @@ public class Funcao {
 				valor -> "O resultado é: " + valor;
 				
 		Function<String, String> empolgado = valor -> valor + "!!!";
+		
+		Function<String, String> duvida = valor -> valor + "???";
 				
 		String resultadoFinal = parOuImpar
 				.andThen(oResultadoE)
 				.andThen(empolgado)
 				.apply(32);
 		System.out.println(resultadoFinal);
+		
+		String resultadoFinal2 = parOuImpar
+				.andThen(oResultadoE)
+				.andThen(duvida)
+				.apply(32);
+		System.out.println(resultadoFinal2);
 	}
 }
