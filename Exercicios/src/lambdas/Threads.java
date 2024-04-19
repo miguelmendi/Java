@@ -23,6 +23,10 @@ public class Threads {
 		Thread t1 = new Thread(trabalho1);
 		Thread t2 = new Thread(trabalho2);
 		Thread t3 = new Thread(trabalho3);
+		System.out.println(trabalho1);
+		System.out.println(trabalho2);
+		System.out.println(trabalho3);
+		
 		
 		t1.start();
 		t2.start();
