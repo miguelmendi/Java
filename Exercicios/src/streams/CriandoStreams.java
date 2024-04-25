@@ -25,5 +25,9 @@ public class CriandoStreams {
 		
 	//	Stream.generate(() -> "a").forEach(print);
 		Stream.iterate(0, n -> n + 1).forEach(println);
+		
+		for (int i = 0; i < maisLangs.length; i++) {
+			System.out.println(maisLangs);
+		}
 	}
 }
