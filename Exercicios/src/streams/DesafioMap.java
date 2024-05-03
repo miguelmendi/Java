@@ -13,6 +13,8 @@ public class DesafioMap {
 				s -> new StringBuilder(s).reverse().toString();
 		Function<String, Integer> binarioParaInt = 
 				s -> Integer.parseInt(s, 2);
+		System.out.println(inverter);
+		System.out.println(binarioParaInt);
 		
 		nums.stream()
 			.map(Integer::toBinaryString)
