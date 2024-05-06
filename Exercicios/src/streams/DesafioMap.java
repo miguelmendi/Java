@@ -15,6 +15,7 @@ public class DesafioMap {
 				s -> Integer.parseInt(s, 2);
 		System.out.println(inverter);
 		System.out.println(binarioParaInt);
+		System.out.println(inverter.apply(null));
 		
 		nums.stream()
 			.map(Integer::toBinaryString)
