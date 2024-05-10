@@ -19,6 +19,9 @@ public class Filter {
 		Predicate<Aluno> aprovado = a -> a.nota >= 7;
 		Function<Aluno, String> saudacaoAprovado = 
 				a -> "Parabéns " + a.nome + "! Você foi aprovado!";
+				
+		System.out.println(aprovado);
+		System.out.println(saudacaoAprovado);
 		
 		alunos.stream()
 			.filter(aprovado)
